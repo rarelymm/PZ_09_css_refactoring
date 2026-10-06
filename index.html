@@ -1,19 +1,45 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
+  <html lang="en">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Карточка курса</title>
+  <title>Мини-справочник терминов</title>
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-  <main class="page">
-    <article class="card">
-      <p class="card__label">Новый курс</p>
-      <h1 class="card__title">Основы интерфейсной разработки</h1>
-      <p class="card__text">Практика HTML и CSS на небольших учебных макетах.</p>
-      <a class="card__link" href="#">Подробнее</a>
-    </article>
+    <header class="header" id="top">
+      <nav>
+        <a href="#html">HTML</a>
+        <a href="#css">CSS</a>
+        <a href="#accessibility">Accessibility</a>
+        <a href="#javascript">JavaScript</a>
+      </nav>
+    </header>
+  <main>
+<section id="html">
+        <h2>HTML</h2>
+        <p>Язык разметки веб-страниц.</p>
+        <a href="#top">Наверх</a>
+      </section>
+
+      <section id="css">
+        <h2>CSS</h2>
+        <p>Язык стилей для оформления веб-страниц.</p>
+        <a href="#top">Наверх</a>
+      </section>
+
+      <section id="accessibility">
+        <h2><span lang="en">Accessibility</span></h2>
+        <p>Принципы доступности веб-контента для всех пользователей.</p>
+        <a href="#top">Наверх</a>
+      </section>
+
+      <section id="javascript">
+        <h2>JavaScript</h2>
+        <p>Язык программирования для добавления интерактивности на веб-страницы.</p>
+        <a href="#top">Наверх</a>
+      </section>
   </main>
 </body>
 </html>
